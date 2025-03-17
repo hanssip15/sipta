@@ -30,14 +30,6 @@ class FormPenilaianSeeder extends Seeder
             'created_at' => now(),
             'updated_at' => now()
         ]);
-        FormPenilaian::create([
-            'nama_formulir_penilaian' => 'Form Penilaian 3',
-            'nip' => '197201061999031002',
-            'tahun_ajaran' => 2022,
-            'status_form' => 'published',
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
 
         FormPenilaian::create([
             'nama_formulir_penilaian' => 'Form Penilaian 4',
