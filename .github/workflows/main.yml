@@ -3,7 +3,7 @@ name: Integration Staging
 on:
   pull_request:
     branches:
-      - staging
+      - develop
 
 jobs:
   build-and-test:
